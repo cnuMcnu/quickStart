@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  david = 'per kaettalla; Billa; David Billa';
+  
+  onkeyupssss(){
+    console.log(this.david);
+  }
 }
